@@ -1,0 +1,24 @@
+/* 基础设置 */
+.container {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+/* #region 顶部导航条 start */
+.topbar {
+    height: 30px;
+    background: #ECECEC;
+}
+
+.welcome {
+    height: 30px;
+    line-height: 30px;
+    font-size: 0;
+    color: #666;
+}
+
+.welcome span，.welcome a {
+    font-size: 12px;
+}
+
+/* #endregion 顶部导航条 end */
