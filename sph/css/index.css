@@ -60,3 +60,36 @@
 }
 
 /* #endregion 顶部导航条 end */
+
+/* #region 搜索框 start */
+.header{
+    height: 120px;
+    background-color: skyblue;
+}
+
+.header .header-search form {
+    margin-top: 42px;
+    font-size: 0;
+}
+
+.header .header-search form input {
+    width: 508px;
+    height: 34px;
+    border: 1px solid rgba(221,48,45,1);
+    border-radius: 5px 0 0 5px;
+    font-size:12px;
+    text-indent: 8px;
+}
+
+.header .header-search form button {
+    width: 80px;
+    height: 36px;
+    background-color: #DD302D;
+    vertical-align: top;
+    background-image: url('../images/serch_icon.png');
+    background-repeat: no-repeat;
+    background-position: 28px 6px;
+    border-radius: 0 5px 5px 0;
+    
+}
+/* #region头部start */
