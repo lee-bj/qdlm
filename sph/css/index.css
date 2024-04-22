@@ -4,11 +4,10 @@
     margin: 0 auto;
 }
 
-
 /* #region 顶部导航条 start */
 .topbar {
     height: 30px;
-    background: #ECECEC;
+    background: #ececec;
 }
 
 .welcome {
@@ -36,25 +35,25 @@
     padding-left: 10px;
 }
 
-.topbar-nav .list{
+.topbar-nav .list {
     height: 30px;
     line-height: 30px;
 }
 
-.topbar-nav .list li{
+.topbar-nav .list li {
     float: left;
 }
 
-.topbar-nav .list li a{
+.topbar-nav .list li a {
     padding: 0 15px;
     border-right: 1px solid #666;
 }
 
-.topbar-nav .list li:first-child a{
+.topbar-nav .list li:first-child a {
     padding-left: 0;
 }
 
-.topbar-nav .list li:last-child a{
+.topbar-nav .list li:last-child a {
     padding-right: 0;
     border: 0;
 }
@@ -62,7 +61,7 @@
 /* #endregion 顶部导航条 end */
 
 /* #region 搜索框 start */
-.header{
+.header {
     height: 120px;
     /* background-color: skyblue; */
 }
@@ -75,46 +74,43 @@
 .header .header-search form input {
     width: 508px;
     height: 34px;
-    border: 1px solid rgba(221,48,45,1);
+    border: 1px solid rgba(221, 48, 45, 1);
     border-radius: 5px 0 0 5px;
-    font-size:12px;
+    font-size: 12px;
     text-indent: 8px;
 }
 
 .header .header-search form button {
     width: 80px;
     height: 36px;
-    background-color: #DD302D;
+    background-color: #dd302d;
     vertical-align: top;
-    background-image: url('../images/serch_icon.png');
+    background-image: url("../images/serch_icon.png");
     background-repeat: no-repeat;
     background-position: 28px 6px;
     border-radius: 0 5px 5px 0;
-    
 }
 /* #region头部start */
 
 /* #region主导航start */
-.main-nav{
+.main-nav {
     height: 48px;
-    border-bottom: 1px solid #DD302D;
+    border-bottom: 1px solid #dd302d;
 }
-.main-nav .all-types{
+.main-nav .all-types {
     width: 190px;
     height: 48px;
     line-height: 48px;
-    background: #DD302D;
+    background: #dd302d;
     color: white;
     text-align: center;
     font-size: 16px;
 }
-
-.main-nav-list{
+.main-nav-list {
     height: 48px;
     line-height: 48px;
 }
-
-.main-nav-list li{
+.main-nav-list li {
     float: left;
     margin: 0 10px;
     font-size: 16px;
@@ -125,13 +121,13 @@
 /* #region主导航end */
 
 /* #region侧边导航start */
-.main-content{
+.main-content {
     margin-top: 10px;
 }
-.main-content .slide-nav{
+.main-content .slide-nav {
     width: 190px;
     height: 458px;
-    background: #F4F4F4;
+    background: #f4f4f4;
     position: relative;
 }
 .main-content .slide-nav li {
@@ -141,74 +137,74 @@
     padding-left: 16px;
 }
 .main-content .slide-nav li:hover {
-    background-color: #DD302D;
+    background-color: #dd302d;
 }
-.main-content .slide-nav li:hover>a {
+.main-content .slide-nav li:hover > a {
     color: white;
 }
-.second-menu{
+.second-menu {
     width: 680px;
     height: 458px;
-    background-color: #F4F4F4;
+    background-color: #f4f4f4;
     position: absolute;
     top: 0;
-    left:190px;
+    left: 190px;
     padding-left: 20px;
     display: none;
 }
 
-.main-content .slide-nav li:hover .second-menu{
+.main-content .slide-nav li:hover .second-menu {
     display: block;
 }
-.second-menu dl{
+.second-menu dl {
     height: 36px;
     line-height: 36px;
 }
-.second-menu dl:first-child{
+.second-menu dl:first-child {
     margin-top: 10px;
 }
-.second-menu dt{
+.second-menu dt {
     float: left;
     width: 70px;
     font-weight: bold;
     margin-right: 10px;
 }
-.second-menu dd{
+.second-menu dd {
     float: left;
 }
-.second-menu dd a{
+.second-menu dd a {
     padding: 0 10px;
-    border-left: 1px solid #666 ;
+    border-left: 1px solid #666;
 }
-.main-content .banner{
+.main-content .banner {
     width: 690px;
     height: 458px;
     margin: 0 10px;
 }
-.main-content .slide-other{
+.main-content .slide-other {
     width: 290px;
     height: 458px;
 }
-.slide-other .message{
+.slide-other .message {
     width: 260px;
     height: 156px;
     padding: 0 14px;
-    border: 1px solid #D9D9D9 ;
+    border: 1px solid #d9d9d9;
 }
-.slide-other .message .title{
+.slide-other .message .title {
     height: 38px;
     line-height: 38px;
-    border-bottom: 1px solid #D9D9D9;
+    border-bottom: 1px solid #d9d9d9;
 }
-.slide-other .message .title span{
+.slide-other .message .title span {
     font-size: 14px;
 }
-.slide-other .message .title a{
+.slide-other .message .title a {
     font-size: 12px;
 }
-.slide-other .msg-list li{
+.slide-other .msg-list li {
     height: 26px;
-    line-height: 26px; 
+    line-height: 26px;
 }
 .slide-other .other-nav {
     margin-top: 10px;
@@ -216,13 +212,13 @@
     height: 290px;
     overflow: hidden;
 }
-.other-nav-list:first-child{
+.other-nav-list:first-child {
     margin-top: 16px;
 }
 .other-nav-list:nth-child(2) {
     margin: 17px 0;
 }
-.other-nav-list li{
+.other-nav-list li {
     width: 48px;
     height: 70px;
     float: left;
@@ -230,13 +226,13 @@
     text-align: center;
     cursor: pointer;
 }
-.other-nav-list li:first-child{
+.other-nav-list li:first-child {
     margin-left: 16px;
 }
-.other-nav-list .picture{
+.other-nav-list .picture {
     width: 48px;
     height: 48px;
-    background-image:url('../images/jinglingtucebian.png')
+    background-image: url("../images/jinglingtucebian.png");
 }
 .other-nav-list:nth-child(1) li:nth-child(1) .picture {
     background-position: 0 0;
@@ -277,44 +273,44 @@
 /* #region侧边导航end*/
 
 /* #region秒杀区start*/
-.seckill{
+.seckill {
     margin-top: 10px;
 }
-.seckill img{
+.seckill img {
     float: left;
     margin-right: 11px;
     cursor: pointer;
-} 
-.seckill img:last-child{
+}
+.seckill img:last-child {
     margin-right: 0;
 }
 /* #endregion秒杀区end*/
 
 /* #region楼层区start*/
-.floor{
+.floor {
     margin-top: 48px;
 }
-.floor-name{
+.floor-name {
     font-size: 20px;
 }
-.floor-nav{
+.floor-nav {
     height: 30px;
     line-height: 30px;
     padding-bottom: 4px;
-    border-bottom: 2px solid #DD302D;
+    border-bottom: 2px solid #dd302d;
 }
-.floor-nav-list li{
+.floor-nav-list li {
     float: left;
     font-size: 14px;
 }
-.floor-nav-list li a{
+.floor-nav-list li a {
     padding: 0 10px;
-    border-right: 1px solid #666;;
+    border-right: 1px solid #666;
 }
-.floor-nav-list li:first-child a{
+.floor-nav-list li:first-child a {
     padding-left: 0;
 }
-.floor-nav-list li:last-child a{
+.floor-nav-list li:last-child a {
     padding-right: 0;
     border: 0;
 }
