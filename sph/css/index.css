@@ -297,4 +297,25 @@
 .floor-name{
     font-size: 20px;
 }
+.floor-nav{
+    height: 30px;
+    line-height: 30px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #DD302D;
+}
+.floor-nav-list li{
+    float: left;
+    font-size: 14px;
+}
+.floor-nav-list li a{
+    padding: 0 10px;
+    border-right: 1px solid #666;;
+}
+.floor-nav-list li:first-child a{
+    padding-left: 0;
+}
+.floor-nav-list li:last-child a{
+    padding-right: 0;
+    border: 0;
+}
 /* #endregion楼层区end*/
