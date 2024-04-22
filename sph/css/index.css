@@ -288,5 +288,13 @@
 .seckill img:last-child{
     margin-right: 0;
 }
-
 /* #endregion秒杀区end*/
+
+/* #region楼层区start*/
+.floor{
+    margin-top: 48px;
+}
+.floor-name{
+    font-size: 20px;
+}
+/* #endregion楼层区end*/
